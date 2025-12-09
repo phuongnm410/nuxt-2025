@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+ul {
+    display: flex;
+    li {
+        list-style: none;
+    }
+}
+.card {
+    background: #F2F4F5;
+    border: 1px solid #3f2525;
+    padding: 10px;
+    margin : 10px;
+    width: 250px;
+    font-family: 'Bitcount Prop Single';
+    border-radius: 10px;
+    img {
+        width: 100%;
+    }
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}

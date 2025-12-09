@@ -1,6 +1,9 @@
 <template>
     <div>
-        Page todo 123
+        <div>
+            <button class="start">Start now</button>
+            <button class="create">Create Card</button>
+        </div>
     </div>
 </template>
 
