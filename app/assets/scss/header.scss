@@ -20,6 +20,10 @@ div.header {
                 &:hover {
                     opacity: 0.7;
                 }
+                &.router-link-active {
+                    color: aquamarine;
+                    font-weight: bold;
+                }
             }
         }
     }
