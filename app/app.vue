@@ -2,5 +2,5 @@
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-      <GlobalModalRenderer />
+      <GlobalModalRender />
 </template>

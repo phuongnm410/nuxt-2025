@@ -25,6 +25,9 @@
                         <div class="back-card">
                             <h6>foods</h6>
                         </div>
+                        <button class="border border-black p-3 cursor-pointer" @click="showInfo">
+                            Show product modal
+                        </button>
                     </div>
                 </li>
             </ul>
@@ -32,8 +35,15 @@
     </div>
 </template>
 
-<script>
-    export default {
-        
+<script setup>
+    import ABC from '~/components/ABC.vue';
+    const { open  } = useModal()
+    
+    function showInfo() {
+        open({
+            component: ABC,
+            props: { productId: 123 },
+            title: "Product Details"
+        })
     }
 </script>
